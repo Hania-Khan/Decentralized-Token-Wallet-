@@ -1,0 +1,32 @@
+/* File: App.css */
+
+.App {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  /* Add this style to make the page scrollable */
+  .App {
+    overflow-y: auto;
+  }
+  
+  .header {
+    background-color: #333;
+    padding: 15px;
+    color: white;
+    text-align: center;
+  }
+  
+  .footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  /* Add more styles as needed */
+  

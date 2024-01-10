@@ -1,0 +1,54 @@
+/* File: src/components/Main.css */
+
+.main-container {
+  background-image: url('main.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.big-box {
+  background-color: rgba(240, 240, 240, 0.8);
+  border: 1px solid #dddddd;
+  border-radius: 20px;
+  padding: 40px;
+  margin: 40px;
+}
+
+.tab-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.tab {
+  cursor: pointer;
+  width: 200px; /* Fixed width for equal size */
+  padding: 20px;
+  margin: 20px;
+  border-radius: 30px;
+  border: 2px solid rgb(70, 69, 160);
+  transition: background-color 0.3s, color 0.3s;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.tab:hover {
+  background-color: #08686b;
+  color: #fff;
+}
+
+.active {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.content-container {
+  margin-top: 20px;
+}

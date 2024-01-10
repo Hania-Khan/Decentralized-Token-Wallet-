@@ -1,0 +1,41 @@
+.home-page {
+    background-image: url('homepage.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    color: white; /* Change this to suit your image */
+  }
+  
+  .home-text {
+    font-weight: bold;
+    margin: 10px; /* Adjust as needed */
+  }
+
+
+  .button-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px; /* Adjust as needed */
+  }
+  
+  .home-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: navy;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .home-button:hover {
+    background-color: darkblue;
+  }
+  
+  .home-button:active {
+    transform: scale(1.1);
+  }

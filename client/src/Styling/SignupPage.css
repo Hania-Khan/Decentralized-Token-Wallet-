@@ -1,0 +1,70 @@
+/* File: SignupPage.css */
+
+.signup-container {
+  background-image: url('login.jpg');
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.signup-form {
+  background-color: #f8f9fa;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  width: 450px; /* Increase width for more space */
+  margin-top: 50px; /* Increase margin-top for more space */
+  border: 3px solid #5b6d93;
+}
+
+.signup-heading {
+  font-weight: bold;
+  text-align: center;
+  color: #343a40;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.signup-form label {
+  display: block;
+  margin-bottom: 15px;
+  color: #495057;
+}
+
+.signup-form input {
+  padding: 12px; /* Increase padding for bigger input fields */
+  margin-bottom: 20px;
+  width: 100%;
+  display: block;
+  font-size: 16px; /* Increase font-size for bigger text */
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+}
+
+.signup-form button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  display: block;
+  margin: auto;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.signup-form button:hover {
+  background-color: #0056b3;
+}
+
+.signup-form footer {
+  margin-top: 20px;
+  text-align: center;
+  color: #868e96;
+}
+
+/* Add more styles as needed */
